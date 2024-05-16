@@ -1,18 +1,17 @@
-site_name: Kostas N. Plataniotis
-site_url: https://platanio.github.io
+site_name: Multimodal Human Behaviour Analysis
+site_url: https://mhba-fl.github.io/
 
 nav:
   - Home: index.md
-  - Biography and Statement: bio_statement.md
-  - Contact: contact.md
+  - CFP: cfp.md
 
 theme:
   name: material
   custom_dir: overrides
   language: en
   palette:
-    primary: green
-    accent: light-green
+    primary: blue
+    accent: light-blue
   favicon: assets/images/favicon/favicon.ico
   features:
     - navigation.tabs
@@ -61,7 +60,7 @@ extra:
     #   link: https://www.linkedin.com/in/kostas-plataniotis-b360811/
 
 copyright: >
-  Copyright &copy; 2023 Konstantinos N. Plataniotis –
+  Copyright &copy; 2024 MHBA-FL –
   <a href="#__consent">Change cookie settings</a>
 
 
