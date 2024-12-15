@@ -1,0 +1,192 @@
+/* General Wrapper for Header and Body */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  width: 100%; /* Takes up the full width of the screen */
+  box-sizing: border-box;
+}
+
+.header, .body-wrapper {
+  width: 100%; /* Matches the full width of its parent (wrapper) */
+  max-width: 90%; /* Dynamically limit width to 90% of the viewport */
+  margin: 0 auto; /* Centers it horizontally */
+  box-sizing: border-box;
+}
+
+.body-wrapper {
+  background-color: white; /* Background for body */
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto; /* Adds spacing between containers */
+  padding: 40px 5%; /* Padding within each body container */
+  gap: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.body-container.reverse {
+  flex-direction: row-reverse; /* Reverse layout for alternating sections */
+}
+
+.content-left, .content-right {
+  flex: 1; /* Equal spacing for text and image */
+  color: black; /* Makes all text inside black */
+}
+
+.image-left, .image-right {
+  flex: 1;
+  text-align: center;
+}
+
+.image-left img, .image-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Key Speakers Section */
+.key-speakers-section {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f7f7f7; /* Light background */
+}
+
+.key-speakers-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Speaker Card Layout */
+.speaker-card {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 3px solid #d1d1d1; /* Add noticeable border */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow depth */
+}
+
+.speaker-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0; /* Square edge for image */
+}
+
+.speaker-info {
+  flex: 1;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.speaker-info h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.speaker-info h3 span {
+  color: #f7f7f7; /* Contrast for name */
+}
+
+.speaker-info p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+
+/* Gradient Backgrounds */
+.gradient-blue {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #d4af37, #f7dc6f);
+}
+
+.gradient-cyan {
+  background: linear-gradient(135deg, #0bc9cd, #48dbfb);
+}
+
+.gradient-red {
+  background: linear-gradient(135deg, #ff6b6b, #ee5253);
+}
+
+/* Program Schedule Section */
+.program-schedule {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.program-schedule h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Schedule Item */
+.schedule-item {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Date Block */
+.date-block {
+  background-color: #ff6b6b; /* Red background for date */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 70px; /* Fixed width */
+  font-family: 'Roboto', sans-serif;
+}
+
+.date-block .day {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.date-block .date {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Event Details */
+.event-details {
+  flex: 1;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.event-details h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #3b82f6; /* Light blue heading */
+  font-family: 'Roboto', sans-serif;
+}
+
+.event-details p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #ff6b6b; /* Red text for host name */
+  font-family: 'Roboto', sans-serif;
+}

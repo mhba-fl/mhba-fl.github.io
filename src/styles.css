@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(255, 255, 255);
+    color: white; /* Optional: Makes text readable on the teal background */
+    margin: 0; /* Ensures the background covers the entire page */
+    font-family: Arial, sans-serif; /* Optional: Sets a cleaner font */
+    padding-top: 20px; /* Adjust this value to match the height of your header */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0 20px; /* Adds padding on smaller screens */
+  }
