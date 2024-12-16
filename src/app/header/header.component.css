@@ -50,3 +50,14 @@
     padding-right: 5%; /* Balance spacing */
     text-align: left; /* Align to the left for structure */
   }
+  .header-subtext {
+    font-family: 'Roboto', sans-serif; /* Match the font of the header */
+    font-size: 1rem; /* Smaller font size for the additional text */
+    font-weight: 400; /* Normal font weight for better readability */
+    color: rgb(70, 70, 70); /* Slightly darker text for contrast */
+    line-height: 1.5; /* Add line spacing for better readability */
+    margin-top: 10px; /* Add spacing between the header text and subtext */
+    margin-left: 10%; /* Match the header-text alignment */
+    padding-right: 5%; /* Maintain consistent spacing on the right */
+  }
+  
