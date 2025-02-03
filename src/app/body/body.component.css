@@ -69,7 +69,7 @@
   display: flex;
   align-items: center;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -189,4 +189,17 @@
   font-size: 1rem;
   color: #ff6b6b; /* Red text for host name */
   font-family: 'Roboto', sans-serif;
+}
+
+.speaker-image {
+  display: flex;            /* Flexbox to center the image */
+  justify-content: center;  /* Horizontally center */
+  align-items: center;      /* Vertically center */
+  overflow: hidden;         /* Hide any overflow */
+  background-color: #fff;   /* Optional background for clean look */
+}
+
+.speaker-image img {
+  object-fit: cover;        /* Fit the image to fill the container without distorting */
+  object-position: top;     /* Focus on the top part to add headspace */
 }
