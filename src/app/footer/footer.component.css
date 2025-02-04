@@ -1,3 +1,5 @@
+
+
 /* Footer Styling */
 .footer {
     display: flex;
@@ -41,5 +43,37 @@
     max-height: 200px; /* Scales down logo height */
     width: auto; /* Maintain aspect ratio */
     object-fit: contain;
+  }
+  
+
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: black; /* Ensures all text is black */
+  }
+  
+  .footer p {
+    color: black; /* Specifically for <p> elements inside the footer */
+  }
+  
+  .footer h2, .footer h3 {
+    color: black; /* Ensures headings are black */
+  }
+  
+  .organizer-info, .contact-info, .how-to-get-there {
+    margin-bottom: 20px;
+  }
+  
+  .organizer-info p, .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .how-to-get-there h2 {
+    margin-bottom: 15px;
+  }
+  
+  .transport-option h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
   }
   

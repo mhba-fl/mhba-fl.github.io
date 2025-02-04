@@ -203,3 +203,63 @@
   object-fit: cover;        /* Fit the image to fill the container without distorting */
   object-position: top;     /* Focus on the top part to add headspace */
 }
+
+.event-date {
+  color: black;
+  font-weight: bold;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Space between items */
+  margin: 20px auto;
+  max-width: 800px; /* Center the grid with a max width */
+}
+
+.event-item {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background for the items */
+  color: black; /* Sets all text inside the box to black */
+}
+
+.event-item img {
+  width: 100%; /* Take full width of the container */
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.event-item h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  color: black; /* Ensures header text is black */
+}
+
+.event-item p {
+  font-size: 1em;
+  margin: 5px 0;
+  color: black; /* Ensures paragraph text is black */
+}
+
+.event-item a {
+  text-decoration: none;
+  color: #007bff; /* Link color remains blue */
+  font-weight: bold;
+}
+
+.event-item a:hover {
+  text-decoration: underline;
+}
+
+.intro-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
